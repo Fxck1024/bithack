@@ -1,0 +1,12 @@
+<p>
+  <% if (config.author){ %>
+  &copy; <%= new Date().getFullYear() %> <%= config.author %>'s Blog
+  <% } else { %>
+  &copy; <%= new Date().getFullYear() %> <%= config.title %>
+  <% } %>
+      powered by <a href="https://mrlee.top" target="_blank">Mr.Lee</a>  
+</p>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</br>
+            <i class="fa fa-user"></i><span id="busuanzi_value_site_uv"></span>
+			 | <i class="fa fa-user"></i><span id="busuanzi_value_site_pv"></span>
